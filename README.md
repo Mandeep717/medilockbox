@@ -1,6 +1,6 @@
 # Wixstro - Wix Astro Template
 
-A modern, full-featured Wix Astro template built with React, TypeScript, and Tailwind CSS. This template provides a solid foundation for building dynamic, interactive websites with Wix's powerful ecosystem.
+A modern, full-featured Wix Astro template built with React, TypeScript, and Tailwind CSS. 
 
 ## 🚀 Features
 
@@ -60,23 +60,24 @@ The development server will start and you can view your site at `http://localhos
 
 ## 📁 Project Structure
 
-```
 main/
 ├── src/
-│   ├── components/          # React components
-│   │   ├── ui/             # Reusable UI components
-│   │   ├── Head.tsx        # Page head component
-│   │   └── Router.tsx      # Routing component
-│   ├── hooks/              # Custom React hooks
-│   ├── lib/                # Utility functions
-│   ├── pages/              # Astro pages
-│   └── styles/             # Global styles
-├── integrations/           # Wix integrations
-│   ├── cms/               # CMS integration
-│   └── members/           # Member authentication
-├── public/                # Static assets
-└── eslint-rules/          # Custom ESLint rules
-```
+│   ├── components/          # Reusable React components
+│   │   ├── ui/              # UI system components
+│   │   ├── Head.tsx
+│   │   └── Router.tsx
+│   ├── hooks/               # Custom React hooks
+│   ├── lib/                 # Utility functions
+│   ├── pages/               # Astro pages
+│   └── styles/              # Global styles
+│
+├── integrations/            # Wix service integrations
+│   ├── cms/                 # CMS configuration
+│   └── members/             # Authentication logic
+│
+├── public/                  # Static assets
+├── eslint-rules/            # Custom lint rules
+└── package.json
 
 ## 🎨 UI Components
 
@@ -89,6 +90,18 @@ This template includes a comprehensive set of UI components built with Radix UI 
 - **Overlays**: Dialog, Popover, Tooltip, Hover Card
 - **Data Display**: Table, Card, Badge, Avatar
 - **Interactive**: Button, Toggle, Slider, Command
+
+## Setup & Initialization
+1. Clone the Repository
+git clone <your-repository-url>
+cd wixstro
+2. Install Dependencies
+npm install
+3. Configure Environment Variables
+npm run env
+4. Start Development Server
+npm run dev
+http://localhost:4321
 
 ## 🔧 Available Scripts
 
